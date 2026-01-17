@@ -17,8 +17,28 @@ The analysis is divided into two parts, each implemented in a dedicated Jupyter 
     -  Spatial map plot showing normalized delay per station (over time).
       
     <img width="1034" height="400" alt="avg_delay_per_train_analysis" src="https://github.com/user-attachments/assets/e836b770-351e-41d9-953f-5a7f9b55b7db" />
-    <img width="400" height="500" alt="avg_delay_per_station" src="https://github.com/user-attachments/assets/92d3fb54-90c3-470c-afa3-3d208a2b6d20" />
 
+    <table>
+          <tr>
+            <td align="center">
+              <img
+                width="400"
+                height="500"
+                alt="avg_delay_per_station"
+                src="https://github.com/user-attachments/assets/92d3fb54-90c3-470c-afa3-3d208a2b6d20"
+              />
+            </td>
+            <td align="center">
+              <video
+                width="400"
+                height="500"
+                controls
+                src=https://github.com/user-attachments/assets/1aa2f225-b674-4440-9ba0-96ba59209971>
+              </video>
+            </td>
+          </tr>
+    </table>
+    
     Analysis of train delays shows that, when averaged across trains running per hour, the mean delay is approximately 40 minutes, with a pronounced increase observed in mid-August.
 
     Examining delays per train over the course of a day reveals that most delays occur during the morning hours. Although fewer trains operate at that time, the proportion of delayed trains is higher compared to midday, when train frequency is significantly greater but delays are less frequent.
@@ -27,11 +47,31 @@ The analysis is divided into two parts, each implemented in a dedicated Jupyter 
 
     Finally, an analysis of delays at major train stations across Germany shows that the highest average delays occur near the borders with Poland and the Czech Republic.
 
-2.  [Delay and Rain Correlation](weather_correlation_analysis.ipynb)
+1.  [Delay and Rain Correlation](weather_correlation_analysis.ipynb)
     -   Analysis of correlation between delay and rain per station with nearest weather station data (over time).
     - Time-series plot showing the correlation of delay and rain over the recorded period.
-      
-    <img width="400" height="500" alt="spatial_correlation" src="https://github.com/user-attachments/assets/50c68e75-f652-49ad-8782-9d1727b8d135" />
+
+    <table>
+      <tr>
+        <td align="center">
+          <img
+            width="400"
+            height="500"
+            alt="spatial_correlation"
+            src="https://github.com/user-attachments/assets/50c68e75-f652-49ad-8782-9d1727b8d135"
+          />
+        </td>
+        <td align="center">
+          <video
+            width="400"
+            height="500"
+            controls
+            src="https://github.com/user-attachments/assets/a1c2f57f-f0f4-480c-944d-0d6256364f4d">
+          </video>
+        </td>
+      </tr>
+    </table>
+
     <img width="1034" height="400" alt="detailed_correlation_analysis" src="https://github.com/user-attachments/assets/125dd87c-8bc9-4535-81b9-ccd0fcb85c08" />
 
     By matching train stations with nearby weather stations, potential correlations between precipitation and train delays were examined. Most stations show no correlation or even negative correlation. Only one day in July showed both high precipitation and particularly large delays.
