@@ -15,8 +15,9 @@ The analysis is divided into two parts, each implemented in a dedicated Jupyter 
 1.  [Delay over time and spatial distribution](delay_time_spatial_analysis.ipynb)
     -  Analysis of delay over time (average delay per train per day or per hour)
     -  Spatial map plot showing normalized delay per station (over time).
-
-
+      
+    <img width="1034" height="400" alt="avg_delay_per_train_analysis" src="https://github.com/user-attachments/assets/e836b770-351e-41d9-953f-5a7f9b55b7db" />
+    <img width="400" height="500" alt="avg_delay_per_station" src="https://github.com/user-attachments/assets/92d3fb54-90c3-470c-afa3-3d208a2b6d20" />
 
     Analysis of train delays shows that, when averaged across trains running per hour, the mean delay is approximately 40 minutes, with a pronounced increase observed in mid-August.
 
@@ -29,7 +30,10 @@ The analysis is divided into two parts, each implemented in a dedicated Jupyter 
 2.  [Delay and Rain Correlation](weather_correlation_analysis.ipynb)
     -   Analysis of correlation between delay and rain per station with nearest weather station data (over time).
     - Time-series plot showing the correlation of delay and rain over the recorded period.
-    
+      
+    <img width="400" height="500" alt="spatial_correlation" src="https://github.com/user-attachments/assets/50c68e75-f652-49ad-8782-9d1727b8d135" />
+    <img width="1034" height="400" alt="detailed_correlation_analysis" src="https://github.com/user-attachments/assets/125dd87c-8bc9-4535-81b9-ccd0fcb85c08" />
+
     By matching train stations with nearby weather stations, potential correlations between precipitation and train delays were examined. Most stations show no correlation or even negative correlation. Only one day in July showed both high precipitation and particularly large delays.
 
     Overall, no meaningful correlation between precipitation and delays was identified. A logical next step would be to investigate the relationship between snowfall and delays; however, this would require a larger and more detailed dataset on train delays. It should also be noted that correlation does not imply causation.
