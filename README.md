@@ -12,7 +12,7 @@ The analysis focuses on:
 
 The analysis is divided into two parts, each implemented in a dedicated Jupyter notebook:
 
-1.  [Delay over time and spatial distribution](delay_time_spatial_analysis.ipynb)
+1.  [Delay over time and spatial distribution](src/delay_time_spatial_analysis.ipynb)
     -  Analysis of delay over time (average delay per train per day or per hour)
     -  Spatial map plot showing normalized delay per station (over time).
       
@@ -47,7 +47,7 @@ The analysis is divided into two parts, each implemented in a dedicated Jupyter 
 
     Finally, an analysis of delays at major train stations across Germany shows that the highest average delays occur near the borders with Poland and the Czech Republic.
 
-1.  [Delay and Rain Correlation](weather_correlation_analysis.ipynb)
+1.  [Delay and Rain Correlation](src/weather_correlation_analysis.ipynb)
     -   Analysis of correlation between delay and rain per station with nearest weather station data (over time).
     - Time-series plot showing the correlation of delay and rain over the recorded period.
 
